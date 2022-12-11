@@ -24,6 +24,11 @@
 
 </script>
 
+<svelte:head>
+  <link href="https://fonts.googleapis.com/css?family=Knewave" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica" rel="stylesheet">
+</svelte:head>
+
 <div class='main'>
 
   <div class='header'>
@@ -34,9 +39,9 @@
     >
       Socratic Circle Home School
     </h1>
- 
-    <p class='tagline'>
-      Welcome to the online center for the Socratic Circle Home School. We open these doors with the intention of establishing a <a href="https://youtube.com/clip/Ugkx9MkejdusERb7h2scBMdzu41f5ijTO1WO">Success 3.0</a> institution.
+
+    <p class="tagline">
+      Let's Talk About It
     </p>
   
   </div>
@@ -126,9 +131,18 @@
 
   </div> 
 
+  <div class="footer">
+
+    <p>
+      We open these doors with the intention of establishing a <a href="https://youtube.com/clip/Ugkx9MkejdusERb7h2scBMdzu41f5ijTO1WO">Success 3.0</a> institution.
+    </p>
+
+  </div>
+
 </div>
 
 <style>
+
 
   *, *:before, *:after {box-sizing:  border-box !important;}
 
@@ -164,19 +178,30 @@
   .title {
     font-size:  3rem;
     font-weight:  800;
+    font-family: 'IM Fell DW Pica';
     padding-bottom: 0px;
     margin: 0px;
   }
 
   .tagline {
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 200;
+    font-family: 'Knewave';
     padding-bottom: 20px;
     padding-top: 10px;
     margin: 0px;
   }
 
 
+  .footer {
+    font-size: 1rem;
+    font-weight: 200;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+  }
 
 
 
